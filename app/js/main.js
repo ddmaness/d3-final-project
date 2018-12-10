@@ -37,14 +37,12 @@ function draw(data) {
     const hrAxis = d3.axisLeft()
         .scale(hrScale);
     
-    d3.select('svg')
-        .append('g')
+    svg.append('g')
         .attr('class', 'x axis')
         .attr('transform', 'translate(0,' + height + ')')
         .call(weightAxis);
 
-    d3.select('svg')
-        .append('g')
+    svg.append('g')
         .attr('class', 'y axis')
         .attr('transform', 'translate( ' + margin + ', 0)')
         .call(hrAxis);
