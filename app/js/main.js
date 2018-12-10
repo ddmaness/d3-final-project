@@ -57,9 +57,7 @@ function draw(data) {
         .attr('r', function(d) {
             return radius;
         })
-        .attr('fill', function(d){
-            return 'red';   
-        });
+        .attr('class', 'point');
 }
 
 
