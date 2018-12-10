@@ -2,6 +2,10 @@ function draw(data) {
     const margin = 75, width = 1200 - margin, height = 700 - margin;
     const radius = 4;
 
+    d3.select('body')
+        .append('h2')
+        .text('Heavy Hitters');
+
     const svg = d3.select('body')
         .append('svg')
         .attr('width', width + margin)
