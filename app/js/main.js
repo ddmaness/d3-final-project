@@ -57,6 +57,21 @@ function draw(data) {
         .attr('transform', 'translate( ' + margin + ', 0)')
         .call(hrAxis);
 
+    svg.append("text")
+        .attr("transform", "rotate(-90)")
+        .attr("y", 20)
+        .attr("x", 0-(height/2))
+        .attr("dy", "1em")
+        .style("text-anchor", "middle")
+        .text("Career Home Runs");      
+    
+    svg.append("text")
+        .attr("y", height + 24)
+        .attr("x", (width/2))
+        .attr("dy", "1em")
+        .style("text-anchor", "middle")
+        .text("Weight in Pounds");
+
     d3.selectAll('div')
         .attr('class', 'info-panel')
         .attr('id', function(d) {
