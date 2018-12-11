@@ -8,9 +8,9 @@ path {
     stroke-width: 2px;
 }
 
-h2 {
+.chart-header {
     font-size: 40px;
-    margin-left: 500px; 
+    margin-left: 350px; 
 }
 
 .point {
@@ -18,7 +18,7 @@ h2 {
     fill-opacity: .4;
 }
 
-.info-panel {
+.tooltip {
     pointer-events: none;
     position: absolute;
     width: 200;
@@ -28,9 +28,9 @@ h2 {
     color: white;
     &.is-visible {
         background-color: rgba(0, 67, 112, 0.7);
-        & .info-panel-name,
-        & .info-panel-weight,
-        & .info-panel-hr {
+        & .tooltip-name,
+        & .tooltip-weight,
+        & .tooltip-hr {
             opacity: 1;
     }
     }
