@@ -12,6 +12,6 @@ I chose a scatter plot so that users could still access (via a tooltip) the info
 
 The following resources were used in the construction of this chart
 
-[The Data Visualization and D3.js](https://www.udacity.com/course/data-visualization-and-d3js--ud507) course from Udacity
-[The d3 API documentation](https://github.com/d3/d3/blob/master/API.md#scales-d3-scale)
-[This bl.oks blog post](https://bl.ocks.org/d3noob/23e42c8f67210ac6c678db2cd07a747e)  on axis labels
+- [The Data Visualization and D3.js](https://www.udacity.com/course/data-visualization-and-d3js--ud507) course from Udacity
+- [The d3 API documentation](https://github.com/d3/d3/blob/master/API.md#scales-d3-scale)
+- [This bl.oks blog post](https://bl.ocks.org/d3noob/23e42c8f67210ac6c678db2cd07a747e)  on axis labels
