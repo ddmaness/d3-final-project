@@ -1,6 +1,6 @@
 function draw(data) {
     const margin = 75, width = 1200 - margin, height = 700 - margin;
-    const radius = 4;
+    const radius = 5;
 
     d3.select('body')
         .append('h2')
