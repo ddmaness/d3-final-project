@@ -13,3 +13,34 @@ h2 {
     fill: rgb(0, 67, 112);
     fill-opacity: .4;
 }
+
+.info-panel {
+    pointer-events: none;
+    position: absolute;
+    width: 200;
+    height: 100;
+    border-radius: 5px;
+    background-color: rgba(0, 67, 112, 0);
+    color: white;
+    &.is-visible {
+        background-color: rgba(0, 67, 112, 0.7);
+        & .info-panel-name,
+        & .info-panel-weight,
+        & .info-panel-hr {
+            opacity: 1;
+    }
+    }
+    &-name,
+    &-weight,
+    &-hr {
+        opacity: 0;
+        text-align: center;
+    }
+    &-name {
+        margin-bottom: 8px;
+    }
+    &-weight,
+    &-hr {
+        margin: 0;
+    }
+}
